@@ -1,0 +1,68 @@
+body {
+  background-image: linear-gradient(#008080, white);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+div {
+  border: width 1px;
+  border-style: double;
+  border-color: black;
+}
+
+img,
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-width: 1px;
+  border-color: transparent;
+  border-style: dotted;
+}
+
+#def {
+  color: black;
+  text-align: center;
+}
+#title {
+  color: blanchedalmond;
+}
+
+#pic {
+  width: 50%;
+}
+
+ol li {
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+#list {
+  margin-left: 325px;
+}
+#book {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  max-width: 100%;
+  float: left;
+  padding-right: 20px;
+}
+.clearfix::after {
+  float: right;
+  content: "";
+  display: table;
+  margin-top: 20px;
+  text-align: center;
+}
+clearfix {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  color: black;
+}
