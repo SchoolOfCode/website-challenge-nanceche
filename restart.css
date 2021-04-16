@@ -7,7 +7,7 @@ body {
 div {
   border: width 1px;
   border-style: double;
-  border-color: black;
+  border-color: transparent;
 }
 
 img,
