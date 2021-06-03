@@ -1,0 +1,30 @@
+:root {
+  --base: #30d5c8;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+
+  border: transparent;
+  width: 100%;
+  background-color: var(--base);
+}
+
+#title {
+  position: fixed;
+  top: 1;
+  left: 0;
+}
+li {
+  list-style-type: none;
+}
