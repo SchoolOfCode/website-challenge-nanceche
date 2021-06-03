@@ -18,6 +18,7 @@ header {
   border: transparent;
   width: 100%;
   background-color: var(--base);
+  font-size: 20px;
 }
 
 #title {
@@ -27,4 +28,17 @@ header {
 }
 li {
   list-style-type: none;
+}
+.nav-bar {
+  border: solid 2px yellow;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+img {
+  border: solid purple 3px;
+  size: 20px;
+}
+.intro {
+  display: flex;
 }
