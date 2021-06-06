@@ -17,7 +17,7 @@ header {
 
   border: transparent;
   width: 100%;
-  background-color: var(--base);
+  /* background-color: var(--base); */
   font-size: 20px;
 }
 
@@ -37,8 +37,11 @@ li {
 }
 img {
   border: solid purple 3px;
-  size: 20px;
 }
 .intro {
   display: flex;
+}
+
+.becks-pic {
+  height: 300px;
 }
