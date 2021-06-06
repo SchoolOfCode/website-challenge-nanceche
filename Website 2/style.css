@@ -35,11 +35,12 @@ li {
   justify-content: space-evenly;
   width: 50%;
 }
-img {
-  border: solid purple 3px;
-}
+
 .intro {
   display: flex;
+  border: solid 2px green;
+  height: 80vh;
+  align-items: center;
 }
 
 .becks-pic {
@@ -49,4 +50,10 @@ img {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.profile-pic {
+  height: 400px;
+  width: 650px;
+  border: solid purple 3px;
 }
